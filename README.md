@@ -21,6 +21,7 @@ Classifier for a two-class dataset using only piecewise linear functions. Applic
 * `2D_circlesSD.mat`: Data separable with a ciruclar boundary
 * `2D_polySD.mat`: Polynomially separable data
 * `2D_polySD_nw`: Dataset with two-peak polynomial boundary, partially successful in classifying
+* `3D_PLSD`: 3-dimensional piecewise linearly separable data.
 
 ## Instructions
 Start with `demo_pwl.m`. Fix a dataset, choose appropriate choices of parameters and right set of values for m and you are good to go!
