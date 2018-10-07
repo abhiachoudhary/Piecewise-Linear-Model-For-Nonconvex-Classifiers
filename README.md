@@ -13,21 +13,14 @@ Classifier for a two-class dataset using only piecewise linear functions. Applic
 `plot_surface.m`: This has same function as `plot_boundary.m` except it is valid for 3-dimensional data.
 
 ## List of data files tested
-`Moon_SD.mat`: Well-known moon data set
-
-`2D_LSD.mat`: linearly separable data
-
-`2D_PLSD.mat`: Piecewise linearly separable data (2 lines)
-
-`2D_bendingLineSD.mat`: Data with classfication boudnary containing a hook 
-
-`2D_diamondSD.mat`: Data with diamond shape classifier boundary
-
-`2D_circlesSD.mat`: Data separable with a ciruclar boundary
-
-`2D_polySD.mat`: Polynomially separable data
-
-`2D_polySD_nw`: Dataset with two-peak polynomial boundary, partially successful in classifying
+* `Moon_SD.mat`: Well-known moon data set
+* `2D_LSD.mat`: linearly separable data
+* `2D_PLSD.mat`: Piecewise linearly separable data (2 lines)
+* `2D_bendingLineSD.mat`: Data with classfication boudnary containing a hook 
+* `2D_diamondSD.mat`: Data with diamond shape classifier boundary
+* `2D_circlesSD.mat`: Data separable with a ciruclar boundary
+* `2D_polySD.mat`: Polynomially separable data
+* `2D_polySD_nw`: Dataset with two-peak polynomial boundary, partially successful in classifying
 
 ## Instructions
 Start with `demo_pwl.m`. Fix a dataset, choose appropriate choices of parameters and right set of values for m and you are good to go!
