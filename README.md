@@ -1,5 +1,5 @@
 # Piecwise-Linear-Model-For-Nonconvex-Classifiers
-Classifier for a two-class dataset using only piecewise linear functions. Applicable to any nonlinear non-convex boundary of moderate complexity.
+Classifier for a two-class dataset using only piecewise linear functions. Applicable to any nonlinear non-convex boundary of moderate complexity. We have compared the performance of our model with Deep Neural Network and Clustered Support Vector machine based classifiers. The implementations of these existing algorithms are available at <a href="https://github.com/abhiachoudhary/DNN_Classifier">this link</a>.
 
 ## MATLAB files description
 `demo_pwl.m`: This is the main file which loads (different kinds of) data file (.mat) and divides it into training and testing set. Then it calls the `run_sequentially.m` file after setting the parameter m which denotes the number of piecwise linear components in the classifier. 
